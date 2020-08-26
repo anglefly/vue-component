@@ -1,0 +1,16 @@
+{
+  "name": "vue-component",
+  "version": "0.0.1",
+  "description": "yufei's Vue-components",
+  "main": "index.js",
+  "author": "JohnChrisWu",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

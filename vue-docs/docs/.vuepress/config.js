@@ -5,27 +5,27 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
-      { text: 'yf-UI', link: '/yf-ui/' },
+      { text: 'YF-Vue-UI', link: '/yf-vue-ui/' },
       { text: '开发规范', link: '/standard/' },
-      { text: '百度', link: 'http://www.baidu.com' }
+      { text: 'github', link: 'https://github.com/anglefly' }
     ],
     sidebar: {
-      '/yf-ui/': [
+      '/yf-vue-ui/': [
         {
           title: '开发指南',
           collapsable: false,
           children: [
-            ['../yf-ui/guid/', '介绍'],
-            ['../yf-ui/install/', '安装'],
-            ['../yf-ui/start/', '快速开始'],
-            ['../yf-ui/logs/', '更新日志'],
+            ['../yf-vue-ui/guid/', '介绍'],
+            ['../yf-vue-ui/install/', '安装'],
+            ['../yf-vue-ui/start/', '快速开始'],
+            ['../yf-vue-ui/logs/', '更新日志'],
           ]
         },
         {
           title: '组件',
           collapsable: false,
           children: [
-            ['../yf-ui/searchSelect/', 'SearchSelect 选择器']
+            ['../yf-vue-ui/searchSelect/', 'SearchSelect 选择器']
           ]
         }
       ],
